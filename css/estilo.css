@@ -1,0 +1,178 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+:root{
+    font-size: 16px;
+}
+
+
+
+
+.hero
+{
+background-image: url("../img/fondo2.webp");
+color:black; 
+ 
+}
+
+.hero__anchor{
+  
+  padding: 1rem;
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  color: blue; 
+}
+
+p{
+  font-family: 'Inter', sans-serif;
+}
+
+
+.header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0.5rem;
+}
+
+.header__logo {
+  max-width: 250px;
+  
+}
+
+.header__item {
+  display: inline-block;
+  padding: 5px 1rem;
+  border-bottom: solid 2px black;
+}
+
+.header__anchor {
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+}
+
+.header__anchor--activo{
+  background-color: black;
+}
+
+.header--nosotros{
+  background-color: yellowgreen;
+}
+
+
+
+.hero {
+  
+  background-position: center bottom;
+  color: black;
+  font-size: 1rem;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.hero__heading{
+  color: black;
+  font-family: 'Inter', sans-serif;
+  font-size: 2.9rem;
+}
+
+
+.hero__slogan{
+  font-size: 1.5rem;
+}
+
+
+.info {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem; 
+}
+
+.infocard {
+  color: white;
+  background-color: #226F01;
+  padding: 1rem 2rem;
+  position: relative;
+}
+
+.infocard__img{
+ width: 100%;
+}
+
+.infocard__titulo {
+  padding: 0.4rem 0.8rem;
+}
+
+.infocard__desc {
+  margin-top: 1rem;
+}
+
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  height: 40vh;
+  overflow: hidden;
+}
+
+.video__titulo {
+  position: absolute;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
+}
+
+#background-video {
+  width: 100%;
+}
+
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #226F01;
+  justify-content: space-between;
+  
+}
+
+.footer__list{
+  display: flex;
+  list-style: none;
+  color: white;
+  list-style: none; 
+}
+
+.footer__item{ 
+  
+  display: inline-block;
+  padding: 5px 1rem;
+  border-bottom: solid 2px black;
+  
+}
+
+.footer__anchor{
+  color: black; 
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+}
