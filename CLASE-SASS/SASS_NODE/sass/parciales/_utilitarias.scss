@@ -1,0 +1,74 @@
+:root{
+    font-size: 16px;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+  }
+
+  .block {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem;
+    gap: 1rem; 
+
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      color: white;
+      font-family: 'Inter', sans-serif;
+    
+    }
+    
+    &__heading{
+      text-align: center;
+    }
+  }
+  
+  
+  .member {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1.8rem;
+    background-color: cadetblue;
+
+    &__title{
+      font-family: 'Inter', sans-serif;
+    
+    }
+    
+    &__img{
+      width: 100%;
+    }
+  }
+  
+  .galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-auto-flow: dense; 
+    gap: 1rem; 
+  }
+  
+  .galeria > div > img {
+    height: 100%;
+    width: 100%; 
+    object-fit: cover;
+  
+  }
+  
+  .vertical{
+    grid-row: span 2; 
+  }
+  
+  
+  .horizontal{
+    grid-column: span 2;
+  }
+  
+  .gigante{
+    grid-row: span 2; 
+    grid-column: span 2;
+  }

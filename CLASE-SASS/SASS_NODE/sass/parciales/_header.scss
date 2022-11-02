@@ -1,0 +1,39 @@
+@import "./variables";
+
+.header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0.5rem;
+    
+    &__logo {
+      width: 250px;
+      height: 200px;
+      
+    }
+    
+    &__item {
+      display: inline-block;
+      padding: 5px 1rem;
+      
+    }
+    
+    &__anchor {
+      text-decoration: none;
+      font-family: 'Inter', sans-serif;
+      font-size: 1rem;
+      font-weight: bold;
+      color: black;
+    }
+    
+    &__anchor--activo{
+      background-color: palevioletred;
+    }
+    
+    &--nosotros{
+      background-color: yellowgreen;
+  }
+  
+  }
