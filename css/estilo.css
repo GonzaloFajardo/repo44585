@@ -25,11 +25,13 @@ p{
 }
 
 .carousel--alto{
-
+height: 40vh;
 }
 
 .carousel--img{
-  
+  object-fit: cover;
+  object-position: center;
+  height: 40vh;
 }
 
 .header {

@@ -1,16 +1,21 @@
 
 
   .hero {
-    background-image: url("../../../img/fondo2.webp");
-    background-position: center bottom;
-    color: black;
-    font-size: 1rem;
-    height: 100vh;
+    background-image: url("../../../img/fondo_pintura3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     position: relative;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    background-position: center bottom;
+    color: black;
+    font-size: 1rem;
+    height: 100vh;
     padding: 2rem 1rem;
+
+
     
     &__heading{
       color: black;
@@ -33,5 +38,17 @@
       font-family: 'Inter', sans-serif;
       color: blue; 
     }
+  }
+  .hero:before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, #8b86a3, rgba(238, 238, 243, 0.247));
+  opacity: 0.8;
   }
   

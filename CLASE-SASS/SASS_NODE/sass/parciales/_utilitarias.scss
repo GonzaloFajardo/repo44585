@@ -72,3 +72,13 @@ p{
     grid-row: span 2; 
     grid-column: span 2;
   }
+
+  .carousel--alto{
+    height: 40vh;
+    }
+    
+    .carousel--img{
+      object-fit: cover;
+      object-position: center;
+      height: 40vh;
+    }
